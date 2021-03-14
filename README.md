@@ -14,5 +14,5 @@
 - I did not achieve the 75% threshold for success. I achieved 73% with my original challenge script, and then 72% with my 2nd optimized attempt
 - I took a variety of steps to try and optimize the model. In my first attempt, i tried to remove additional columns (e.g., Affiliation) which dropped my performance to less than 65%. In the 2nd attempt, i increased the number of hidden nodes and kept the activation as a relu. That ultimately achieved 72%. In the 3rd attempt, I dropped more columns and increased the number of EPOCHs. This had the inverse effect on the outcomes. It dropped to 63%
 
-### Summary: 
+## Summary: 
 In summary, the largest impact on the model appeared to relate more to the activation and adding of additional layers. From my understanding of the module, the more layers of a neural networking model, the stronger it can be. I think I missed out on changing the activation type as i kept my similar throughout. As far as what i would do different, i think i would leverage a logistic regression model or a random forest.
